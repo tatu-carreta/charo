@@ -13,8 +13,6 @@
 	
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-
-
 </head>
 
 <body class="home">
@@ -32,7 +30,7 @@
 				    <a class="navbar-brand" href="#">Logotipo</a>
 				</div>
 
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
 					<ul class="nav navbar-nav">
 						<li class="active dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -70,8 +68,39 @@
 		</div>
 	</header>
 
+	<div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill imagenslider1"></div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill imagenslider2"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill imagenslider3"></div>
+            </div>
+        </div>
+    </div>
 	
 	<p><a class="laura" href="http://www.laurachuburu.com.ar" target="_blank">Diseñado por www.laurachuburu.com.ar</a></p>
+
+	<!-- Script to Activate the Carousel -->
+        <script>
+            $('.carousel').carousel({
+                interval: 2000 //changes the speed
+            });
+        </script>
 
 	<!--google analytics-->
 		<script type="text/javascript">
