@@ -27,10 +27,10 @@
 				    	<span class="icon-bar"></span>
 				    	<span class="icon-bar"></span>
 				    </button>
-				    <a class="navbar-brand" href="#">Logotipo</a>
+				    <!-- <a class="navbar-brand" href="#">Logotipo</a> -->
 				</div>
 
-				<div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
 						<li class="active dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -68,7 +68,7 @@
 		</div>
 	</header>
 
-	<div id="myCarousel" class="carousel slide">
+	<div id="myCarousel" class="carousel slide carousel-fade">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
