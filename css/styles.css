@@ -1,25 +1,31 @@
 ﻿body, html {height: 100%}
 body {margin:0; font-family: 'Roboto Condensed', sans-serif; color:#666;}
 .container {max-width:980px; margin:0 auto; position: relative;}
-h1 {font-size: 16px}
+h1 {font-size: 18px; letter-spacing: 1px}
 
 header {position: relative; z-index: 1000;}
-.navbar {margin:0;}
+.navbar {margin:0; letter-spacing: 1px; font-size: 15px}
 .navbar-collapse {padding: 0}
 .navbar-toggle {margin-top: 1.560em}
-.navbar-default {background: #e90101; border: none; }
+.navbar-default {background: #A00404; border: none; }
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:focus, 
-.navbar-default .navbar-nav>.active>a:hover {background: #e90101; color: #fff;}
+.navbar-default .navbar-nav>.active>a:hover {background: #A00404; color: #fff;}
 .navbar-default .navbar-nav>li>a {color: #fff; text-transform: uppercase;}
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
-.navbar-default .navbar-nav>.open>a:hover {background: #e90101; color: #fff;}
-.dropdown-menu{background: #e90101; color: #fff; border:none;}
-.dropdown-menu>li>a {color: #fff}
+.navbar-default .navbar-nav>.open>a:hover {background: #C62222; color: #fff;}
+.dropdown-menu{background: #C62222; color: #fff; border:none;}
+.dropdown-menu>li>a {color: #fff; font-size: 16px; font-weight: 300;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {color: #ccc; text-decoration: none; background-color: #C62222;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {color: #ccc;}
+.dropdown-menu>li>a {padding: 6px 16px;}
+
+    
 
 
 .facebook {display: block; width: 24px; height: 24px; background: url(../images/facebook.png) no-repeat; position: absolute; top:13px; right: 0; text-indent: -9999px }
+.facebook:hover {background-position: bottom}
 .logo {text-align: center; color: #fff; margin-top: 20vh;}
 
 /* carousel HOME */

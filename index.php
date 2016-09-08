@@ -2,15 +2,15 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<title>Charo Perelli - Objetos en hierro, cemento, cerámica y vidrio. Cursos</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Venta de objetos de jardín. Cursos de cerámica, mosaico y cemento en Gonnet, La Plata.">
+	<meta property="og:image" content="imagenes/img-face.jpg">
 	<link href="favicon.ico" rel="shortcut icon">
-	<title>Charo Perelli - Objetos en hierro, cerámica y cemento</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-	<meta property="og:image" content="imagenes/img-face.jpg" />
-	<!-- M O D E R N I Z R -->
-	<script src="js/modernizr-2.5.3.js"></script>
-	
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+	<script src="js/modernizr-2.5.3.js"></script>	
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </head>
@@ -32,7 +32,7 @@
 
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active dropdown">
+						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
           						Objetos <b class="caret"></b>
         					</a>
@@ -63,8 +63,8 @@
 			</div><!--cierra container-->
 		</nav>
 		<div class="logo">
-			<img src="images/firma-home.png" alt="">
-			<h1>Hierro, cerámica, cemento y vidrio</h1>
+			<img src="images/firma-home.png" alt="Charo Perelli">
+			<h1>Hierro, cemento, cerámica y vidrio</h1>
 		</div>
 	</header>
 
