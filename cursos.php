@@ -5,7 +5,7 @@
 	<title>Taller de Charo Perelli - Objetos en hierro, cemento, cerámica y vidrio.</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="Venta de objetos de jardín y decoración. Cursos de cerámica, mosaico y cemento en Gonnet, La Plata.">
-	<meta property="og:image" content="imagenes/img-face.jpg">
+	<meta property="og:image" content="images/img-face.jpg">
 	<link href="favicon.ico" rel="shortcut icon">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
@@ -15,7 +15,7 @@
 	<script src="js/bootstrap.min.js"></script>
 </head>
 
-<body class="home">
+<body class="interiores">
 	<header>
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
@@ -71,44 +71,39 @@
 			</div><!--cierra container-->
 		</nav>
 		<div class="logo">
-			<img src="images/firma-home.png" alt="Charo Perelli">
+			<a href="index.php"><img src="images/firma-home.png" alt="Charo Perelli"></a>
 			<h1>Hierro, cemento, cerámica y vidrio</h1>
 		</div>
 	</header>
 
-	<div id="myCarousel" class="carousel slide carousel-fade">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill imagenslider1"></div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill imagenslider2"></div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill imagenslider3"></div>
-            </div>
-        </div>
-    </div>
-	
-	<!-- <p><a class="laura" href="http://www.laurachuburu.com.ar" target="_blank">Diseñado por www.laurachuburu.com.ar</a></p> -->
-
-	<!-- Script to Activate the Carousel -->
-        <script>
-            $('.carousel').carousel({
-                interval: 2000 //changes the speed
-            });
-        </script>
+	<section>
+		<div class="container">
+			<h2>Cursos</h2>
+			<div class="col-izquierda">
+				<h3>Cursos de Cerámica y Mosaico</h3>
+					<p>Los cursos anuales de cerámica y mosaico comienzan en Marzo y terminan a mediados de Diciembre. (Inscripción abierta todo el año)</p>
+				<h3>Cursos personalizados. (Especiales para gente que viene por poco tiempo a la ciudad)</h3>
+					<p>Son cursos intensivos que se planifican respondiendo a las necesidades específicas del alumno, con programas cortos y días acotados. (Inscripción abierta todo el año)</p>
+				<h3>Técnicas sobre Cemento</h3>
+					<p>Dos veces al año se realizan jornadas intensivas de capacitación sobre Técnicas de Cemento.</p>
+					<p>No es necesario tener experiencia previa.<br>
+					Las actualizaciones sobre los diferentes cursos se encuentran  en la página de Facebook.</p>
+			</div>
+			<div class="col-derecha">
+				<form action="envia.php" method="post"> 			  
+					<label class="form-columnas">Nombre y Apellido<br>
+						<input name="nombre" type="text" class="campo-form" id="realname" required /></label><br>
+					<label class="form-columnas">email<br>
+						<input name="email" type="email" class="campo-form" id="email" required /></label><br>
+					<label class="form-columnas">Teléfono<br>
+						<input name="telefono" type="text" class="campo-form" id="telefono" required /></label><br>
+					<label>Consulta:<br><textarea name="consulta" cols="45" rows="5" class="form-consulta" id="consulta"></textarea></label><br>
+					
+					<label><input type="submit" id="button" value="Enviar"></label>
+				</form>
+			</div>
+		</div><!--cierra container-->
+	</section>
 
 	<!--google analytics-->
 		<script type="text/javascript">

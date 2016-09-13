@@ -5,7 +5,7 @@
 	<title>Taller de Charo Perelli - Objetos en hierro, cemento, cerámica y vidrio.</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="Venta de objetos de jardín y decoración. Cursos de cerámica, mosaico y cemento en Gonnet, La Plata.">
-	<meta property="og:image" content="imagenes/img-face.jpg">
+	<meta property="og:image" content="images/img-face.jpg">
 	<link href="favicon.ico" rel="shortcut icon">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
@@ -15,7 +15,7 @@
 	<script src="js/bootstrap.min.js"></script>
 </head>
 
-<body class="home">
+<body class="interiores">
 	<header>
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
@@ -71,44 +71,31 @@
 			</div><!--cierra container-->
 		</nav>
 		<div class="logo">
-			<img src="images/firma-home.png" alt="Charo Perelli">
+			<a href="index.php"><img src="images/firma-home.png" alt="Charo Perelli"></a>
 			<h1>Hierro, cemento, cerámica y vidrio</h1>
 		</div>
 	</header>
 
-	<div id="myCarousel" class="carousel slide carousel-fade">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+	<section>
+		<div class="container catalogo">
+			<h2>El taller</h2>
+			<ul>
+				<li><a href="images/objetos/ampliaciones/taller/charo_taller.JPG" title="El taller / 09"><img src="images/objetos/miniaturas/taller/charo_taller.JPG"></a></li>
+				<li><a href="images/objetos/ampliaciones/taller/DSC04068.JPG" title="El taller / 10"><img src="images/objetos/miniaturas/taller/DSC04068.JPG"></a></li>
+				<!-- <li><a href="images/objetos/ampliaciones/taller/DSC04084.JPG" title="El taller / 11"><img src="images/objetos/miniaturas/taller/DSC04084.JPG"></a></li> -->
+				<li><a href="images/objetos/ampliaciones/taller/DSC04205.JPG" title="El taller / 12"><img src="images/objetos/miniaturas/taller/DSC04205.JPG"></a></li>
+				<li><a href="images/objetos/ampliaciones/taller/Copia-de-DSC06524.jpg" title="La vidriera / 07"><img src="images/objetos/miniaturas/taller/Copia-de-DSC06524.jpg"></a></li>
+				<li><a href="images/objetos/ampliaciones/taller/Copia-de-DSC06526.jpg" title="La vidriera / 08"><img src="images/objetos/miniaturas/taller/Copia-de-DSC06526.jpg"></a></li>
+			</ul>
 
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill imagenslider1"></div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill imagenslider2"></div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill imagenslider3"></div>
-            </div>
-        </div>
-    </div>
-	
-	<!-- <p><a class="laura" href="http://www.laurachuburu.com.ar" target="_blank">Diseñado por www.laurachuburu.com.ar</a></p> -->
+			<p>Lo mío es el TALLER: siempre espacio de encuentro, local-taller, casa-taller, taller de chapa, taller del arroyo, incendio que no pudo destruírlo, paredes del nuevo taller.
+			Los alumnos, chicos y adolescentes que descubrieron sus posibilidades de expresión: la cerámica y sus técnicas, la arcilla, los horneados, los esmaltes, los cuentos que leímos y que inventamos, las excursiones, los lugares y sus lenguajes, las exposiciones, las películas y las fotos que revelamos en nuestro propio laboratorio, el juego, las manos, la diversión.
+			Los alumnos, ahora adultos que alguna vez tuvieron formación plástica o curiosos investigadores de las formas y los colores: entramos en las “artes del fuego”: cerámica, vitrofusión, mosaico. Dejamos aparecer la espontaneidad, la identidad, la sorpresa y el error.
+			La técnica y el aprendizaje sostienen la libertad: el taller nos provoca para dejar de lado los miedos, los prejuicios y la timidez y relacionarnos con nosotros, con los otros y con los materiales desde la alegría de crear.</p>
+			<p>Después de todo, de los amores, la imaginación y la libertad, se trata la vida.</p>
 
-	<!-- Script to Activate the Carousel -->
-        <script>
-            $('.carousel').carousel({
-                interval: 2000 //changes the speed
-            });
-        </script>
+		</div><!--cierra container-->
+	</section>
 
 	<!--google analytics-->
 		<script type="text/javascript">

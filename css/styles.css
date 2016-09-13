@@ -1,12 +1,11 @@
 ﻿body, html {height: 100%}
-body {margin:0; font-family: 'Roboto Condensed', sans-serif; color:#666;}
+body {margin:0; font-family: 'Roboto Condensed', sans-serif; color:#666; font-size: 16px; background:url(../images/fondo-interior.jpg) no-repeat center top fixed #F6F5EF; }
 .container {max-width:980px; margin:0 auto; position: relative;}
 h1 {font-size: 18px; letter-spacing: 1px}
 
 header {position: relative; z-index: 1000;}
 .navbar {margin:0; letter-spacing: 1px; font-size: 15px}
 .navbar-collapse {padding: 0}
-.navbar-toggle {margin-top: 1.560em}
 .navbar-default {background: #A00404; border: none; }
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:focus, 
@@ -16,17 +15,23 @@ header {position: relative; z-index: 1000;}
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {background: #C62222; color: #fff;}
 .dropdown-menu{background: #C62222; color: #fff; border:none;}
-.dropdown-menu>li>a {color: #fff; font-size: 16px; font-weight: 300;}
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {color: #ccc; text-decoration: none; background-color: #C62222;}
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {color: #ccc;}
-.dropdown-menu>li>a {padding: 6px 16px;}
+.dropdown-menu>li>a {color: #fff; font-size: 16px; font-weight: 300;padding: 6px 16px;}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {color: #ccc; text-decoration: none; background-color: #C62222;}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {color: #ccc;}
 
-    
+.navbar-toggle {position: relative; padding: 0; float: none; margin-top: 13px; margin-left: 15px; margin-bottom: 0; background-color: transparent; background-image: none; border: 0; border-radius: 0px;}
+.navbar-toggle .icon-bar { display: block; width: 30px; height: 4px; border-radius: 2px;}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover { background-color: transparent;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
+.navbar-toggle .icon-bar+.icon-bar {margin-top: 5px;}
 
-
-.facebook {display: block; width: 24px; height: 24px; background: url(../images/facebook.png) no-repeat; position: absolute; top:13px; right: 0; text-indent: -9999px }
+.facebook {display: block; width: 24px; height: 24px; background: url(../images/facebook.png) no-repeat; position: absolute; top:13px; right: 15px; text-indent: -9999px }
 .facebook:hover {background-position: bottom}
 .logo {text-align: center; color: #fff; margin-top: 20vh;}
+.logo img {max-width: 100%}
 
 /* carousel HOME */
 #myCarousel {position: absolute;top: 0;left: 0; width: 100%;}
@@ -37,32 +42,34 @@ header {position: relative; z-index: 1000;}
 .imagenslider1{background-image: url(../images/slide1.jpg) !important; height: 100%;}
 .imagenslider2{background-image: url(../images/slide2.jpg) !important; height: 100%;}
 .imagenslider3{background-image: url(../images/slide3.jpg) !important; height: 100%;}
+.carousel-fade .carousel-inner .item {-webkit-transition-property: opacity;transition-property: opacity;}
+.carousel-fade .carousel-inner .item,.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right {opacity: 0;}
+.carousel-fade .carousel-inner .active,.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right {opacity: 1;}
+.carousel-fade .carousel-inner .next,.carousel-fade .carousel-inner .prev,.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right {left: 0;  -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);}
+.carousel-fade .carousel-control {z-index: 2;}
 
-.carousel-fade .carousel-inner .item {
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-}
-.carousel-fade .carousel-inner .item,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  opacity: 0;
-}
-.carousel-fade .carousel-inner .active,
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-.carousel-fade .carousel-inner .next,
-.carousel-fade .carousel-inner .prev,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-}
-.carousel-fade .carousel-control {
-  z-index: 2;
-}
+/* I N T E R I O R E S */
+.interiores header {background: url(../images/fondo-header.jpg) no-repeat center bottom; background-size: cover}
+.interiores header .logo {margin-top: 0; padding: 20px 0}
+.interiores header .logo img {width: 400px; border: 0}
+.interiores header .logo h1 {font-size: 16px; margin-top: 10px}
+
+section {padding-bottom: 80px;}
+h2 {font-size:36px; color:#fff; line-height:46px; text-shadow: 3px 3px 2px rgba(150, 150, 150, 1); text-align: center; margin-bottom: 30px}
+h3 {font-size: 22px; color:#777}
+.catalogo ul {margin: 0 -1% 40px -1%; font-size: 0; padding: 0}
+.catalogo li {display:inline-block; margin:1%; width: 18%}
+.catalogo ul img {box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75); width: 100%}
+.catalogo ul p {color:#666; font-size:14px; margin:5px 0 0 0; text-align:center}
+/*.catalogo p {color:#333; font-size:20px; line-height:30px}*/
+
+.col-izquierda {width: 48%; float: left}
+.col-derecha {width: 48%; float: right;}
+.col-izquierda h3:first-child {margin-top: 0}
+
+input, label, textarea {width: 100%}
+#button {width: 100px}
+
 
 
 /* Media queries */
@@ -71,6 +78,19 @@ header {position: relative; z-index: 1000;}
 	 .navbar-default .navbar-collapse, 
 	 .navbar-default .navbar-form {border: none}
 	 .navbar-default .navbar-nav .open .dropdown-menu>li>a {color: #fff;}
+	 .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {color: #ccc;}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form { margin-top: 8px;}
+	.catalogo li {width: 23%}
+}
 
-	 .logo img {width: 100%}
+@media screen and (max-width: 580px){
+	.catalogo li {width: 31.33%}
+}
+
+@media screen and (max-width: 450px){
+	.catalogo li {width: 48%}
+}
+@media screen and (max-width: 350px){
+	.catalogo li {width: 98%}
+	h3 {text-align: center}
 }
