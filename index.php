@@ -9,7 +9,7 @@
 	<link href="favicon.ico" rel="shortcut icon">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,700" rel="stylesheet">
 	<script src="js/modernizr-2.5.3.js"></script>	
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -101,7 +101,6 @@
         </div>
     </div>
 	
-	<!-- <p><a class="laura" href="http://www.laurachuburu.com.ar" target="_blank">Diseñado por www.laurachuburu.com.ar</a></p> -->
 
 	<!-- Script to Activate the Carousel -->
         <script>

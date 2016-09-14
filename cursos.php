@@ -9,7 +9,7 @@
 	<link href="favicon.ico" rel="shortcut icon">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,700" rel="stylesheet">
 	<script src="js/modernizr-2.5.3.js"></script>	
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -90,20 +90,26 @@
 					Las actualizaciones sobre los diferentes cursos se encuentran  en la página de Facebook.</p>
 			</div>
 			<div class="col-derecha">
+				<h3>Consultá por los cursos:</h3>
 				<form action="envia.php" method="post"> 			  
-					<label class="form-columnas">Nombre y Apellido<br>
+					<label>Nombre y Apellido<br>
 						<input name="nombre" type="text" class="campo-form" id="realname" required /></label><br>
-					<label class="form-columnas">email<br>
+					<label>email<br>
 						<input name="email" type="email" class="campo-form" id="email" required /></label><br>
-					<label class="form-columnas">Teléfono<br>
+					<label>Teléfono<br>
 						<input name="telefono" type="text" class="campo-form" id="telefono" required /></label><br>
-					<label>Consulta:<br><textarea name="consulta" cols="45" rows="5" class="form-consulta" id="consulta"></textarea></label><br>
+					<label>Consulta:<br><textarea name="consulta" cols="45" rows="5" class="consulta-form" id="consulta"></textarea></label><br>
 					
 					<label><input type="submit" id="button" value="Enviar"></label>
 				</form>
 			</div>
 		</div><!--cierra container-->
 	</section>
+	<footer>
+		<p class="firma">
+			Copyright © Charo Perelli 2016 - Desarrollo web: <a href="http://www.laurachuburu.com.ar/" target="_blank">www.laurachuburu.com.ar</a>
+		</p>
+	</footer>
 
 	<!--google analytics-->
 		<script type="text/javascript">

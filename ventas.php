@@ -9,7 +9,7 @@
 	<link href="favicon.ico" rel="shortcut icon">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,700" rel="stylesheet">
 	<script src="js/modernizr-2.5.3.js"></script>	
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -77,7 +77,7 @@
 	</header>
 
 	<section>
-		<div class="container catalogo">
+		<div class="container catalogo estaticas">
 			<h2>Ventas</h2>
 			<ul>
 				<li><a href="images/objetos/ampliaciones/taller/DSC06676.jpg" title="La vidriera"><img src="images/objetos/miniaturas/taller/DSC06676.jpg"></a></li>
@@ -89,23 +89,26 @@
 			</ul>
 
 			<div class="col-izquierda">
-				<p>Los objetos los diseño a pedido. También tengo objetos en venta en el taller y otros expuestos en la vidriera . <br>
-				Solicitá entrevista o consultá precios por teléfono, por mail, Facebook o completando el siguiente formulario:</p>
+				<p><strong>Los objetos los diseño a pedido.</strong> También tengo objetos en venta en el taller y otros expuestos en la vidriera . <br>
+				Solicitá entrevista o consultá precios por teléfono, por mail o por Facebook.</p>
 						
-				<p>(54) 221 471-2350<br>
-				contacto@charoperelli.com.ar <br>
-				Gonnet - Buenos Aires - Argentina</p>
+				<p class="datos-contacto">
+					(54) 221 <strong>471-2350</strong> <br>
+					<strong>contacto@charoperelli.com.ar</strong> <br>
+					Gonnet - Buenos Aires - Argentina
+				</p>
 			</div>
 
 			<div class="col-derecha">
+			<h3>Consultá precios:</h3>
 				<form action="envia.php" method="post"> 			  
-					<label class="form-columnas">Nombre y Apellido<br>
+					<label>Nombre y Apellido<br>
 						<input name="nombre" type="text" class="campo-form" id="realname" required /></label><br>
-					<label class="form-columnas">email<br>
+					<label>email<br>
 						<input name="email" type="email" class="campo-form" id="email" required /></label><br>
-					<label class="form-columnas">Teléfono<br>
+					<label>Teléfono<br>
 						<input name="telefono" type="text" class="campo-form" id="telefono" required /></label><br>
-					<label>Consulta:<br><textarea name="consulta" cols="45" rows="5" class="form-consulta" id="consulta"></textarea></label><br>
+					<label>Consulta:<br><textarea name="consulta" cols="45" rows="5" class="consulta-form" id="consulta"></textarea></label><br>
 					
 					<label><input type="submit" id="button" value="Enviar" /></label>
 				</form>
@@ -113,6 +116,11 @@
 			
 		</div><!--cierra container-->
 	</section>
+	<footer>
+		<p class="firma">
+			Copyright © Charo Perelli 2016 - Desarrollo web: <a href="http://www.laurachuburu.com.ar/" target="_blank">www.laurachuburu.com.ar</a>
+		</p>
+	</footer>
 
 	<!--google analytics-->
 		<script type="text/javascript">

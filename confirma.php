@@ -79,34 +79,14 @@
 	<section>
 		<div class="container">
 			<h2>Contacto</h2>
-			<div class="col-izquierda">
-				<p><strong>Solicitar entrevista</strong> por teléfono  o por mail:</p>
-				<p class="datos-contacto">
-					(54) 221 <strong>471-2350</strong> <br>
-					<strong>contacto@charoperelli.com.ar</strong> <br>
-					Gonnet - Buenos Aires - Argentina
+
+				<p class="frase-confirma">
+					Tu mensaje fue enviado correctamente
 				</p>
-			</div>
-			<div class="col-derecha">
-				<form action="envia.php" method="post"> 			  
-					<label>Nombre y Apellido<br>
-						<input name="nombre" type="text" class="campo-form" id="realname" required /></label><br>
-					<label>email<br>
-						<input name="email" type="email" class="campo-form" id="email" required /></label><br>
-					<label>Teléfono<br>
-						<input name="telefono" type="text" class="campo-form" id="telefono" required /></label><br>
-					<label>Consulta:<br><textarea name="consulta" cols="45" rows="5" class="consulta-form" id="consulta"></textarea></label><br>
-					
-					<label><input type="submit" id="button" value="Enviar"></label>
-				</form>
-			</div>
+			
 		</div><!--cierra container-->
 	</section>
-	<footer>
-		<p class="firma">
-			Copyright © Charo Perelli 2016 - Desarrollo web: <a href="http://www.laurachuburu.com.ar/" target="_blank">www.laurachuburu.com.ar</a>
-		</p>
-	</footer>
+
 
 	<!--google analytics-->
 		<script type="text/javascript">

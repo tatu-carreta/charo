@@ -1,7 +1,8 @@
 ﻿body, html {height: 100%}
-body {margin:0; font-family: 'Roboto Condensed', sans-serif; color:#666; font-size: 16px; background:url(../images/fondo-interior.jpg) no-repeat center top fixed #F6F5EF; }
+body {margin:0; font-family: 'Roboto', sans-serif; color:#555; font-size: 15px; background:url(../images/fondo-interior.jpg) no-repeat center top fixed #F6F5EF; }
 .container {max-width:980px; margin:0 auto; position: relative;}
-h1 {font-size: 18px; letter-spacing: 1px}
+h1, h2, h3, nav {font-family: 'Roboto Condensed', sans-serif;}
+h1 {font-size: 18px; letter-spacing: 1px; }
 
 header {position: relative; z-index: 1000;}
 .navbar {margin:0; letter-spacing: 1px; font-size: 15px}
@@ -55,8 +56,8 @@ header {position: relative; z-index: 1000;}
 .interiores header .logo h1 {font-size: 16px; margin-top: 10px}
 
 section {padding-bottom: 80px;}
-h2 {font-size:36px; color:#fff; line-height:46px; text-shadow: 3px 3px 2px rgba(150, 150, 150, 1); text-align: center; margin-bottom: 30px}
-h3 {font-size: 22px; color:#777}
+h2 {font-size:40px; color:#fff; line-height:46px; text-shadow: 3px 3px 2px rgba(150, 150, 150, 1); text-align: center; margin-bottom: 40px}
+h3 {font-size: 22px; color:#666}
 .catalogo ul {margin: 0 -1% 40px -1%; font-size: 0; padding: 0}
 .catalogo li {display:inline-block; margin:1%; width: 18%}
 .catalogo ul img {box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75); width: 100%}
@@ -65,11 +66,20 @@ h3 {font-size: 22px; color:#777}
 
 .col-izquierda {width: 48%; float: left}
 .col-derecha {width: 48%; float: right;}
-.col-izquierda h3:first-child {margin-top: 0}
+.col-izquierda h3:first-child, .col-derecha h3:first-child {margin-top: 0}
 
-input, label, textarea {width: 100%}
-#button {width: 100px}
 
+input, label, textarea {width: 100%; font-weight:400; color:#777;}
+.campo-form, .consulta-form {border: 1px solid #ccc; border-radius: 4px; padding-left: 10px}
+.campo-form {height: 34px;}
+#button {background-color: #A00404; color: #fff; width: 100px; height: 34px; border:0; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px}
+#button:hover {background-color: #C62222}
+.datos-contacto {font-size: 18px; color:#A00404;}
+.frase-confirma {font-size: 18px; color:#A00404; text-align: center;}
+
+.firma {color: #9B9B9B; font-size: 11px; text-align: center; height: 50px}
+.firma a {color: #9B9B9B;}
+.firma a:hover {color: #626263;}
 
 
 /* Media queries */
@@ -81,16 +91,21 @@ input, label, textarea {width: 100%}
 	 .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {color: #ccc;}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form { margin-top: 8px;}
 	.catalogo li {width: 23%}
+	.estaticas li:nth-child(5) {display: none}
 }
 
 @media screen and (max-width: 580px){
 	.catalogo li {width: 31.33%}
+	.estaticas li:nth-child(4) {display: none}
+	.col-izquierda, .col-derecha {width: 100%; float: none; margin-bottom: 30px}
+
 }
 
 @media screen and (max-width: 450px){
 	.catalogo li {width: 48%}
+	.estaticas li:nth-child(4) {display: inline-block;}
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 320px){
 	.catalogo li {width: 98%}
 	h3 {text-align: center}
 }

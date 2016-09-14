@@ -9,7 +9,7 @@
 	<link href="favicon.ico" rel="shortcut icon">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,700" rel="stylesheet">
 	<script src="js/modernizr-2.5.3.js"></script>	
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -77,7 +77,7 @@
 	</header>
 
 	<section>
-		<div class="container catalogo">
+		<div class="container catalogo estaticas">
 			<h2>El taller</h2>
 			<ul>
 				<li><a href="images/objetos/ampliaciones/taller/charo_taller.JPG" title="El taller / 09"><img src="images/objetos/miniaturas/taller/charo_taller.JPG"></a></li>
@@ -88,7 +88,7 @@
 				<li><a href="images/objetos/ampliaciones/taller/Copia-de-DSC06526.jpg" title="La vidriera / 08"><img src="images/objetos/miniaturas/taller/Copia-de-DSC06526.jpg"></a></li>
 			</ul>
 
-			<p>Lo mío es el TALLER: siempre espacio de encuentro, local-taller, casa-taller, taller de chapa, taller del arroyo, incendio que no pudo destruírlo, paredes del nuevo taller.
+			<p><strong>Lo mío es el TALLER:</strong> siempre espacio de encuentro, local-taller, casa-taller, taller de chapa, taller del arroyo, incendio que no pudo destruírlo, paredes del nuevo taller.
 			Los alumnos, chicos y adolescentes que descubrieron sus posibilidades de expresión: la cerámica y sus técnicas, la arcilla, los horneados, los esmaltes, los cuentos que leímos y que inventamos, las excursiones, los lugares y sus lenguajes, las exposiciones, las películas y las fotos que revelamos en nuestro propio laboratorio, el juego, las manos, la diversión.
 			Los alumnos, ahora adultos que alguna vez tuvieron formación plástica o curiosos investigadores de las formas y los colores: entramos en las “artes del fuego”: cerámica, vitrofusión, mosaico. Dejamos aparecer la espontaneidad, la identidad, la sorpresa y el error.
 			La técnica y el aprendizaje sostienen la libertad: el taller nos provoca para dejar de lado los miedos, los prejuicios y la timidez y relacionarnos con nosotros, con los otros y con los materiales desde la alegría de crear.</p>
@@ -96,6 +96,11 @@
 
 		</div><!--cierra container-->
 	</section>
+	<footer>
+		<p class="firma">
+			Copyright © Charo Perelli 2016 - Desarrollo web: <a href="http://www.laurachuburu.com.ar/" target="_blank">www.laurachuburu.com.ar</a>
+		</p>
+	</footer>
 
 	<!--google analytics-->
 		<script type="text/javascript">
