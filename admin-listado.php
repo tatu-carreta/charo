@@ -83,57 +83,136 @@
 	<section>
 		<div class="container catalogo">
 			<h2>Objetos de jardín</h2>
-
 			<a href="" class="btn-nuevo-grupo">Nuevo grupo</a>
-
 			<div class="titulo-grupo">
 				<h3>Hierro y cemento</h3>
 				<a href="" class="btn-azul-admin">Agregar foto</a>
-				<a href="" class="btn-iconos cambiar">Cambiar nombre de grupo</a>
-				<a href="" class="btn-iconos eliminar">Eliminar grupo</a>
+				<a href="" class="btn-editar-grupo">Cambiar nombre de grupo</a>
+				<a href="" class="btn-eliminar-grupo">Eliminar grupo</a>
 			</div>
 			<ul>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01"><img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg"></a><p>Objetos de jardín / 01</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/casam2.jpg" title="Objetos de jardín / 02"><img src="images/objetos/miniaturas/objetos-jardin/casam2.jpg"></a><p>Objetos de jardín / 02</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/casam4.jpg" title="Objetos de jardín / 03"><img src="images/objetos/miniaturas/objetos-jardin/casam4.jpg"></a><p>Objetos de jardín / 03</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/cvxz.jpg" title="Objetos de jardín / 04"><img src="images/objetos/miniaturas/objetos-jardin/cvxz.jpg"></a><p>Objetos de jardín / 04</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC00688.JPG" title="Objetos de jardín / 05"><img src="images/objetos/miniaturas/objetos-jardin/DSC00688.JPG"></a><p>Objetos de jardín / 05</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC01229.JPG" title="Objetos de jardín / 06"><img src="images/objetos/miniaturas/objetos-jardin/DSC01229.JPG"></a><p>Objetos de jardín / 06</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC01231.JPG" title="Objetos de jardín / 07"><img src="images/objetos/miniaturas/objetos-jardin/DSC01231.JPG"></a><p>Objetos de jardín / 07</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC02331.JPG" title="Objetos de jardín / 08"><img src="images/objetos/miniaturas/objetos-jardin/DSC02331.JPG"></a><p>Objetos de jardín / 08</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC02332.JPG" title="Objetos de jardín / 09"><img src="images/objetos/miniaturas/objetos-jardin/DSC02332.JPG"></a><p>Objetos de jardín / 09</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC03158.JPG" title="Objetos de jardín / 10"><img src="images/objetos/miniaturas/objetos-jardin/DSC03158.JPG"></a><p>Objetos de jardín / 10</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC03160.JPG" title="Objetos de jardín. Paisajismo Ivana Gervasio / 11"><img src="images/objetos/miniaturas/objetos-jardin/DSC03160.JPG"></a><p>Objetos de jardín / 11</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC03161-2.JPG" title="Objetos de jardín. Paisajismo Ivana Gervasio / 12"><img src="images/objetos/miniaturas/objetos-jardin/DSC03161-2.JPG"></a><p>Objetos de jardín / 12</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC03698.JPG" title="Objetos de jardín / 13"><img src="images/objetos/miniaturas/objetos-jardin/DSC03698.JPG"></a><p>Objetos de jardín / 13</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC03863.JPG" title="Objetos de jardín / 14"><img src="images/objetos/miniaturas/objetos-jardin/DSC03863.JPG"></a><p>Objetos de jardín / 14</p></li>
-				
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
 			</ul>
+
+			<!-- otro grupo -->
 			<div class="titulo-grupo">
 				<h3>Hierro y cerámica</h3>
 				<a href="" class="btn-azul-admin">Agregar foto</a>
-				<a href="" class="btn-iconos cambiar">Cambiar nombre de grupo</a>
-				<a href="" class="btn-iconos eliminar">Eliminar grupo</a>
+				<a href="" class="btn-editar-grupo">Cambiar nombre de grupo</a>
+				<a href="" class="btn-eliminar-grupo">Eliminar grupo</a>
 			</div>
 			<ul>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC03899.JPG" title="Objetos de jardín / 15"><img src="images/objetos/miniaturas/objetos-jardin/DSC03899.JPG"></a><p>Objetos de jardín / 15</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC04206.JPG" title="Objetos de jardín / 16"><img src="images/objetos/miniaturas/objetos-jardin/DSC04206.JPG"></a><p>Objetos de jardín / 16</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC04690.JPG" title="Objetos de jardín / 17"><img src="images/objetos/miniaturas/objetos-jardin/DSC04690.JPG"></a><p>Objetos de jardín / 17</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC04692.JPG" title="Objetos de jardín / 18"><img src="images/objetos/miniaturas/objetos-jardin/DSC04692.JPG"></a><p>Objetos de jardín / 18</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC06698.jpg" title="Objetos de jardín / 19"><img src="images/objetos/miniaturas/objetos-jardin/DSC06698.jpg"></a><p>Objetos de jardín / 19</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC04921.JPG" title="Objetos de jardín / 20"><img src="images/objetos/miniaturas/objetos-jardin/DSC04921.JPG"></a><p>Objetos de jardín / 20</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC04930.JPG" title="Objetos de jardín / 21"><img src="images/objetos/miniaturas/objetos-jardin/DSC04930.JPG"></a><p>Objetos de jardín / 21</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC06695.jpg" title="Objetos de jardín / 22"><img src="images/objetos/miniaturas/objetos-jardin/DSC06695.jpg"></a><p>Objetos de jardín / 22</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC06232.jpg" title="Objetos de jardín / 23"><img src="images/objetos/miniaturas/objetos-jardin/DSC06232.jpg"></a><p>Objetos de jardín / 23</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC05529.JPG" title="Objetos de jardín / 24"><img src="images/objetos/miniaturas/objetos-jardin/DSC05529.JPG"></a><p>Objetos de jardín / 24</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC05530.JPG" title="Objetos de jardín / 25"><img src="images/objetos/miniaturas/objetos-jardin/DSC05530.JPG"></a><p>Objetos de jardín / 25</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/DSC05547.JPG" title="Objetos de jardín / 26"><img src="images/objetos/miniaturas/objetos-jardin/DSC05547.JPG"></a><p>Objetos de jardín / 26</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/expo1.JPG" title="Objetos de jardín / 27"><img src="images/objetos/miniaturas/objetos-jardin/expo1.JPG"></a><p>Objetos de jardín / 27</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/expo2.JPG" title="Objetos de jardín / 28"><img src="images/objetos/miniaturas/objetos-jardin/expo2.JPG"></a><p>Objetos de jardín / 28</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/expo3.JPG" title="Objetos de jardín / 29"><img src="images/objetos/miniaturas/objetos-jardin/expo3.JPG"></a><p>Objetos de jardín / 29</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/foto_jardin11.jpg" title="Objetos de jardín / 30"><img src="images/objetos/miniaturas/objetos-jardin/foto_jardin11.jpg"></a><p>Objetos de jardín / 30</p></li>
-				<li><a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/fotos012.jpg" title="Objetos de jardín / 31"><img src="images/objetos/miniaturas/objetos-jardin/fotos012.jpg"></a><p>Objetos de jardín / 31</p></li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
+				<!-- foto -->
+				<li>	
+					<div class="botones-foto">
+						<a href="" class="btn-editar-foto">Editar foto</a>
+						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+					</div>
+					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
+						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
+					</a>
+					<p>Objetos de jardín / 01</p>
+				</li>
 			</ul>
+
 			<script type="text/javascript">
 				$(document).ready(function() {
 					$(".fancybox").fancybox();
@@ -141,6 +220,7 @@
 			</script>
 		</div><!--cierra container-->
 	</section>
+	
 	<footer>
 		<p class="firma">
 			Copyright © Charo Perelli 2016 - Desarrollo web: <a href="http://www.laurachuburu.com.ar/" target="_blank">www.laurachuburu.com.ar</a>

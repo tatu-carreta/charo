@@ -92,13 +92,15 @@ body.login {background-image: url(../images/slide1.jpg)!important; background-si
 /*catalogo*/
 .btn-nuevo-grupo {font-family: 'Roboto Condensed', sans-serif; font-size: 22px; color: #5C88C8; display: block; margin-bottom: 30px; padding: 10px 20px; border: 1px dashed #5C88C8; background: #fff}
 .btn-nuevo-grupo:hover {background: #f4f5ee; text-decoration: none!important; color: #4372aa}
-.titulo-grupo {margin-bottom: 20px}
+.titulo-grupo {margin-bottom: 10px}
 .titulo-grupo h3 {display: inline-block; margin-right: 30px}
 .btn-azul-admin {display: inline-block; background-color: #5c88c8; color: #fff; height: 34px; line-height: 34px; padding: 0 20px; border:0; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px; font-size: 14px}
 .btn-azul-admin:hover {background-color: #4372aa; color: #fff; text-decoration: none}
-.btn-iconos {display: inline-block; margin: 0 10px; padding-left: 30px}
-.cambiar {}
-.eliminar {}
+.btn-editar-grupo {display: inline-block; margin: 0 10px; padding-left: 22px; background: url(../images/editar.png) no-repeat center left;}
+.btn-eliminar-grupo {display: inline-block; margin: 0 10px; padding-left: 22px; background: url(../images/eliminar.png) no-repeat center left;}
+.botones-foto {text-align: right; margin-bottom: 5px}
+.btn-editar-foto {display: inline-block; margin-left:5px; width: 20px; height: 20px; background: url(../images/editar.png) no-repeat center}
+.btn-eliminar-foto {display: inline-block; margin-left:5px; width: 20px; height: 20px; background: url(../images/eliminar.png) no-repeat center}
 
 
 
