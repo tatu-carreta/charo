@@ -20,6 +20,10 @@
 </head>
 
 <body class="interiores">
+	<div class="nav-admin">
+		<span class="btn-texto usuario">Charo</span>
+		<a href="" class="btn-texto salir">Salir</a>
+	</div>
 	<header>
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
@@ -86,16 +90,16 @@
 			<a href="" class="btn-nuevo-grupo">Nuevo grupo</a>
 			<div class="titulo-grupo">
 				<h3>Hierro y cemento</h3>
-				<a href="" class="btn-azul-admin">Agregar foto</a>
-				<a href="" class="btn-editar-grupo">Cambiar nombre de grupo</a>
-				<a href="" class="btn-eliminar-grupo">Eliminar grupo</a>
+				<a href="" class="btn btn-azul">Agregar foto</a>
+				<a href="" class="btn-texto editar">Cambiar nombre de grupo</a>
+				<a href="" class="btn-texto eliminar">Eliminar grupo</a>
 			</div>
 			<ul>
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -105,8 +109,8 @@
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -116,8 +120,8 @@
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -127,8 +131,8 @@
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -138,8 +142,8 @@
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -151,16 +155,16 @@
 			<!-- otro grupo -->
 			<div class="titulo-grupo">
 				<h3>Hierro y cerámica</h3>
-				<a href="" class="btn-azul-admin">Agregar foto</a>
-				<a href="" class="btn-editar-grupo">Cambiar nombre de grupo</a>
-				<a href="" class="btn-eliminar-grupo">Eliminar grupo</a>
+				<a href="" class="btn btn-azul">Agregar foto</a>
+				<a href="" class="btn-texto editar">Cambiar nombre de grupo</a>
+				<a href="" class="btn-texto eliminar">Eliminar grupo</a>
 			</div>
 			<ul>
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -170,8 +174,8 @@
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -181,8 +185,8 @@
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -192,8 +196,8 @@
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -203,8 +207,8 @@
 				<!-- foto -->
 				<li>	
 					<div class="botones-foto">
-						<a href="" class="btn-editar-foto">Editar foto</a>
-						<a href="" class="btn-eliminar-foto">Eliminar foto</a>
+						<a href="" class="btn-iconos editar">Editar foto</a>
+						<a href="" class="btn-iconos eliminar">Eliminar foto</a>
 					</div>
 					<a class="fancybox" rel="group" href="images/objetos/ampliaciones/objetos-jardin/bolas005.jpg" title="Objetos de jardín / 01">
 						<img src="images/objetos/miniaturas/objetos-jardin/bolas005.jpg">
@@ -226,17 +230,5 @@
 			Copyright © Charo Perelli 2016 - Desarrollo web: <a href="http://www.laurachuburu.com.ar/" target="_blank">www.laurachuburu.com.ar</a>
 		</p>
 	</footer>
-
-	<!--google analytics-->
-		<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-		<script type="text/javascript">
-		var pageTracker = _gat._getTracker("UA-4834851-1");
-		pageTracker._initData();
-		pageTracker._trackPageview();
-		</script>
-	<!--fin google analytics-->
 </body>
 </html>
